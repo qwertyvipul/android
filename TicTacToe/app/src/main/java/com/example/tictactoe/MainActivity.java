@@ -29,9 +29,28 @@ public class MainActivity extends AppCompatActivity {
         btnPlayAgain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                /*
                 Intent intent = getIntent();
                 finish();
                 startActivity(intent);
+                */
+
+                ((ImageView)findViewById(R.id.box_0)).setImageResource(0);
+                ((ImageView)findViewById(R.id.box_1)).setImageResource(0);
+                ((ImageView)findViewById(R.id.box_2)).setImageResource(0);
+                ((ImageView)findViewById(R.id.box_3)).setImageResource(0);
+                ((ImageView)findViewById(R.id.box_4)).setImageResource(0);
+                ((ImageView)findViewById(R.id.box_5)).setImageResource(0);
+                ((ImageView)findViewById(R.id.box_6)).setImageResource(0);
+                ((ImageView)findViewById(R.id.box_7)).setImageResource(0);
+                ((ImageView)findViewById(R.id.box_8)).setImageResource(0);
+                activePlayer = 0;
+                flag = 1;
+                for(int i=0; i<9; i++){
+                    gameState[i] = 2;
+                }
+                tvDisplay.setText("Make Move: Player - " + activePlayer);
             }
         });
     }

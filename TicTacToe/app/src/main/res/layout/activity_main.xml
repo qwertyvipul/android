@@ -27,17 +27,19 @@
             android:scaleY="1.15"
             android:scaleX="1.1" />
 
+
+
         <ImageView
             android:id="@+id/box_0"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:tag="0"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintLeft_toRightOf="@id/box_2"
+            app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.926"
-            app:layout_constraintHorizontal_bias="0.55"
+            app:layout_constraintVertical_bias="0.316"
+            app:layout_constraintHorizontal_bias="0.128"
             android:onClick="dropIn"/>
 
         <ImageView
@@ -46,11 +48,11 @@
             android:layout_height="70dp"
             android:tag="1"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/box_0"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.316"
-            app:layout_constraintHorizontal_bias="0.128"
+            app:layout_constraintHorizontal_bias="0.25"
             android:onClick="dropIn"/>
 
         <ImageView
@@ -63,7 +65,7 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.316"
-            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintHorizontal_bias="0.55"
             android:onClick="dropIn"/>
 
         <ImageView
@@ -72,11 +74,11 @@
             android:layout_height="70dp"
             android:tag="3"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintLeft_toRightOf="@id/box_2"
+            app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.316"
-            app:layout_constraintHorizontal_bias="0.55"
+            app:layout_constraintVertical_bias="0.616"
+            app:layout_constraintHorizontal_bias="0.128"
             android:onClick="dropIn"/>
 
         <ImageView
@@ -85,11 +87,11 @@
             android:layout_height="70dp"
             android:tag="4"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/box_3"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.616"
-            app:layout_constraintHorizontal_bias="0.128"
+            app:layout_constraintHorizontal_bias="0.25"
             android:onClick="dropIn"/>
 
         <ImageView
@@ -98,20 +100,7 @@
             android:layout_height="70dp"
             android:tag="5"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintLeft_toRightOf="@id/box_1"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.616"
-            app:layout_constraintHorizontal_bias="0.25"
-            android:onClick="dropIn"/>
-
-        <ImageView
-            android:id="@+id/box_6"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:tag="6"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintLeft_toRightOf="@id/box_2"
+            app:layout_constraintLeft_toRightOf="@id/box_4"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.616"
@@ -119,10 +108,10 @@
             android:onClick="dropIn"/>
 
         <ImageView
-            android:id="@+id/box_7"
+            android:id="@+id/box_6"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:tag="7"
+            android:tag="6"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -132,16 +121,29 @@
             android:onClick="dropIn"/>
 
         <ImageView
+            android:id="@+id/box_7"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:tag="7"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/box_6"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.926"
+            app:layout_constraintHorizontal_bias="0.25"
+            android:onClick="dropIn"/>
+
+        <ImageView
             android:id="@+id/box_8"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:tag="8"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintLeft_toRightOf="@id/box_1"
+            app:layout_constraintLeft_toRightOf="@id/box_7"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.926"
-            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintHorizontal_bias="0.55"
             android:onClick="dropIn"/>
 
     </android.support.constraint.ConstraintLayout>
