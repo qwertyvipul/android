@@ -7,7 +7,19 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/iv_cat"
+        android:id="@+id/iv_cat_1"
+        android:layout_width="700px"
+        android:layout_height="700px"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        android:src="@drawable/cat_1"
+        />
+
+    <ImageView
+        android:id="@+id/iv_cat_2"
         android:layout_width="700px"
         android:layout_height="700px"
         app:layout_constraintTop_toTopOf="parent"
