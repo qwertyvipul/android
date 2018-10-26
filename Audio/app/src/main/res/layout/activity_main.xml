@@ -10,7 +10,7 @@
         android:id="@+id/tv_comedy_punch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Comdey Punch!"
+        android:text="Comedy Punch!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
