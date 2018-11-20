@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/sv_lesson_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="#3ea3ea"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_basic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Basics"
+                android:padding="20dp"
+                android:background="#3eb3eb"
+                android:layout_marginBottom="10dp"
+                android:onClick="gotoBasicPlan"/>
+
+            <TextView
+                android:id="@+id/tv_greeting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Greetings"
+                android:padding="20dp"
+                android:background="#3eb3eb"
+                android:layout_marginBottom="10dp"
+                android:onClick="gotoGreetingPlan"/>
+
+            <TextView
+                android:id="@+id/tv_people"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="People"
+                android:padding="20dp"
+                android:background="#3eb3eb"
+                android:layout_marginBottom="10dp"
+                android:onClick="gotoPeoplePlan"/>
+
+            <TextView
+                android:id="@+id/tv_travel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Travel"
+                android:padding="20dp"
+                android:background="#3eb3eb"
+                android:layout_marginBottom="10dp"
+                android:onClick="gotoTravelPlan"/>
+
+            <TextView
+                android:id="@+id/tv_family"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Family"
+                android:padding="20dp"
+                android:background="#3eb3eb"
+                android:layout_marginBottom="10dp"
+                android:onClick="gotoFamilyPlan"/>
+
+            <TextView
+                android:id="@+id/tv_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Activity"
+                android:padding="20dp"
+                android:background="#3eb3eb"
+                android:layout_marginBottom="10dp"
+                android:onClick="gotoActivityPlan"/>
+
+            <TextView
+                android:id="@+id/tv_restaurant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Restaurant"
+                android:padding="20dp"
+                android:background="#3eb3eb"
+                android:layout_marginBottom="10dp"
+                android:onClick="gotoRestaurantPlan"/>
+
+            <TextView
+                android:id="@+id/tv_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="City"
+                android:padding="20dp"
+                android:background="#3eb3eb"
+                android:layout_marginBottom="10dp"
+                android:onClick="gotoCityPlan"/>
+
+            <TextView
+                android:id="@+id/tv_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Home"
+                android:padding="20dp"
+                android:background="#3eb3eb"
+                android:layout_marginBottom="10dp"
+                android:onClick="gotoHomePlan"/>
+
+            <TextView
+                android:id="@+id/tv_work"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Work"
+                android:padding="20dp"
+                android:background="#3eb3eb"
+                android:onClick="gotoWorkPlan"/>
+        </LinearLayout>
+
+        <!--
+        <TextView
+            android:id="@+id/tv_lesson1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Lesson - 1"
+            android:padding="20dp"
+            android:background="#3eb3eb"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>-->
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
